@@ -1,0 +1,68 @@
+{
+    "mountain" : {
+        "fileType" : "mp4",
+        "loop" : true,
+        "endingOptions" : {
+            "1" : {
+                "text" : "Option 1 - field",
+                "video" : "field"
+            },
+            "2" : {
+                "text" : "Option 2 - bridge",
+                "video" : "bridge"
+            }
+        }
+    },
+    "field" : {
+        "fileType" : "mp4",
+        "loop" : false,
+        "endingOptions" : {
+            "-1" : {
+                "text" : null,
+                "video" : "bridge"
+            }
+        }
+    },
+    "bridge" : {
+        "fileType" : "mp4",
+        "loop" : false,
+        "endingOptions" : {
+            "1" : {
+                "text" : "Option 1 - mountain",
+                "video" : "mountain"
+            },
+            "2" : {
+                "text" : "Option 2 - cemetery",
+                "video" : "cemetery1"
+            },
+            "3" : {
+                "text" : "Option 2 - field",
+                "video" : "field"
+            }
+        }
+    },
+    "cemetery1" : {
+        "fileType" : "mp4",
+        "loop" : true,
+        "endingOptions" : {
+            "1" : {
+                "text" : "Option 1 - cemetery",
+                "video" : "cemetery2"
+            },
+            "2" : {
+                "text" : "Option 2 - bridge",
+                "video" : "bridge"
+            }
+        }
+    },
+    "cemetery2" : {
+        "fileType" : "mp4",
+        "loop" : false,
+        "endingOptions" : {
+            "1" : {
+                "text" : "Restart |>",
+                "video" : "mountain"
+            }
+        }
+    }
+}
