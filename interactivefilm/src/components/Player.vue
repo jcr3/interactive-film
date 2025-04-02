@@ -53,7 +53,7 @@
             @click="togglePauseVideo"
         >
             <source
-                :src="`/${videoStore.currentVideo}.${videoStore.getCurrentVideoFileType()}`"
+                :src="`./${videoStore.currentVideo}.${videoStore.getCurrentVideoFileType()}`"
                 :type="`video/${videoStore.getCurrentVideoFileType()}`"
             >
             Your browser does not support the video tag.
