@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+//import { RouterLink, RouterView } from 'vue-router'
+  import Player from '@/components/Player.vue';
 </script>
 
 <template>
-  <RouterView />
+  <Player />
 </template>
 
 <style scoped>
